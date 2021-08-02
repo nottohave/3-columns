@@ -46,7 +46,7 @@ section h1 {
   padding: 33px 0px;
   font-family: "Big Shoulders";
   font-size: 40px;
-  color: hsla(0, 0%, 95%, 0.863);
+  color: hsl(0, 0%, 95%);
   font-weight: 400;
 }
 
@@ -54,7 +54,7 @@ section p {
   padding: 0px 0px 68px 0px;
   font-family: "Lexend Deca";
   font-size: 15px;
-  color: hsla(0, 0%, 100%, 0.582);
+  color: hsla(0, 0%, 100%, 0.849);
   line-height: 1.8;
 }
 
@@ -81,7 +81,7 @@ section button {
 .sedans-learn:hover {
   cursor: pointer;
   background-color: hsl(31, 77%, 52%);
-  color: hsla(0, 0%, 100%, 0.89);
+  color: hsla(0, 0%, 100%, 0.945);
   border: solid 2px white;
 }
 
@@ -104,7 +104,7 @@ section button {
 .suvs-learn:hover {
   cursor: pointer;
   background-color: hsl(184, 100%, 22%);
-  color: hsla(0, 0%, 100%, 0.89);
+  color: hsl(0, 0%, 100%);
   border: solid 2px white;
 }
 

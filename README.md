@@ -26,4 +26,4 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+HTML CSS flex, re-utilize components for design in both desktop and mobile responsive, planning for which components to use and apply across the page before begin to build.
