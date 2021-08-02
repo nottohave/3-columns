@@ -140,7 +140,7 @@ section button {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 842px) {
+@media screen and (max-width: 950px) {
   body {
     padding: 87px 25px;
   }
