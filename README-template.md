@@ -1,4 +1,4 @@
-# Frontend Mentor - [3-column]()
+# Frontend Mentor - [3-column](https://nottohave.github.io/3-columns/)
 
 ### The challenge
 
@@ -15,7 +15,7 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [Click here](https://nottohave.github.io/3-columns/)
 
 ### Built with
 
