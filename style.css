@@ -1,7 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("./Fonts/LexendDeca-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Big Shoulders";
+  src: url("./Fonts/BigShouldersDisplay-Bold.ttf");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 171px;
+}
+
+main {
+  width: 920px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 44px 52px 0px 47px;
+}
+
+section img {
+  width: 63px;
+  height: 40px;
+}
+
+section h1 {
+  padding: 33px 0px;
+  font-family: "Big Shoulders";
+  font-size: 40px;
+  color: hsla(0, 0%, 95%, 0.863);
+  font-weight: 400;
+}
+
+section p {
+  padding: 0px 0px 68px 0px;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.582);
+  line-height: 1.8;
+}
+
+section button {
+  width: 147px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  margin-bottom: 47px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 2% 0% 0% 2%;
+}
+
+.sedans-learn {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedans-learn:hover {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.89);
+  border: solid 2px white;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs h1 {
+  color: hsla(0, 0%, 95%, 0.945);
+}
+
+.suvs p {
+  color: hsla(0, 0%, 100%, 0.692);
+}
+
+.suvs-learn {
+  color: hsl(184, 100%, 22%);
+}
+
+.suvs-learn:hover {
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.89);
+  border: solid 2px white;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0% 2% 2% 0%;
+}
+
+.luxury h1 {
+  color: hsla(0, 0%, 95%, 0.945);
+}
+
+.luxury p {
+  color: hsla(0, 0%, 100%, 0.692);
+}
+
+.luxury-learn {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-learn:hover {
+  cursor: pointer;
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.89);
+  border: solid 2px white;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 842px) {
+  body {
+    padding: 87px 25px;
+  }
+  main {
+    width: 328px;
+    height: 1320px;
+    flex-wrap: wrap;
+  }
+
+  section {
+    height: 440px;
+    width: 325px;
+  }
+
+  section h1 {
+    font-size: 38px;
+    padding: 28px 0px;
+  }
+
+  section p {
+    padding-bottom: 28px;
+  }
+
+  section button {
+    margin-bottom: 0px;
+  }
+  .sedans {
+    border-radius: 2% 2% 0% 0%;
+  }
+  .luxury {
+    border-radius: 0% 0% 2% 2%;
+  }
 }
